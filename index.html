@@ -1,46 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <title>Happy Birthday Vaishu 💖</title>
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="$FLUTTER_BASE_HREF">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_application_1">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>flutter_application_1</title>
-  <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
-  <script src="flutter_bootstrap.js" async></script>
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💓</span>
+        <span>💞</span>
+        <span>💘</span>
+        <span>💝</span>
+        <span>❤️</span>
+    </div>
+
+    <!-- Welcome Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-text">A little surprise for you ✨</p>
+
+            <h1>
+                Happy Birthday
+                <br>
+                <span>Vaishu 💖</span>
+            </h1>
+
+            <p class="subtitle">
+                To my beautiful best friend,
+                <br>
+                today is all about YOU! 🥰
+            </p>
+
+            <button onclick="showSurprise()">
+                🎁 Open Your Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Surprise Section -->
+    <section id="surprise" class="section hidden">
+
+        <h2>✨ A Special Message For You ✨</h2>
+
+        <div class="letter">
+
+            <p>Dear Vaishu 💕,</p>
+
+            <p>
+                Happy Birthday to one of the most beautiful souls
+                I've ever known! 🥹💖
+            </p>
+
+            <p>
+                I'm so lucky to have a best friend like you.
+                Thank you for all the laughs, the crazy conversations,
+                the unforgettable memories and all the little moments
+                that make our friendship so special.
+            </p>
+
+            <p>
+                I hope this birthday brings you everything you've
+                ever wished for. May your life always be filled with
+                happiness, love, success and endless smiles. ✨
+            </p>
+
+            <p>
+                No matter where life takes us, I hope our friendship
+                always stays this beautiful. 🫶
+            </p>
+
+            <p class="signature">
+                Forever your bestie 💖
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Friendship Section -->
+    <section class="section">
+
+        <h2>💕 Our Beautiful Friendship 💕</h2>
+
+        <p class="section-intro">
+            Some things in life are priceless...
+            and our friendship is one of them. 🥹
+        </p>
+
+        <div class="memory-cards">
+
+            <div class="memory-card">
+                <div class="icon">🌸</div>
+                <h3>The Laughs</h3>
+                <p>
+                    All those silly jokes, random moments
+                    and uncontrollable laughter. 😂💗
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="icon">🫶</div>
+                <h3>The Conversations</h3>
+                <p>
+                    From serious talks to completely random
+                    conversations that somehow last forever. 💕
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="icon">✨</div>
+                <h3>The Memories</h3>
+                <p>
+                    Every little moment with you becomes
+                    a memory worth keeping forever. 🥰
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="icon">💖</div>
+                <h3>Forever Besties</h3>
+                <p>
+                    Through every crazy adventure and every
+                    chapter of life, we'll always be besties. 🫶
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Final Section -->
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <div class="big-heart">💖</div>
+
+            <h2>Happy Birthday, Vaishu! 🎂</h2>
+
+            <p>
+                May your smile always shine brighter than the stars. ✨
+            </p>
+
+            <p>
+                May all your dreams come true. 🌸
+            </p>
+
+            <p>
+                And may we create a million more beautiful memories together. 💕
+            </p>
+
+            <h3>
+                Forever grateful for you! 🥹💖
+            </h3>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        Made with 💖 especially for Vaishu
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
